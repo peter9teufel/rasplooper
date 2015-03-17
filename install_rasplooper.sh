@@ -33,6 +33,8 @@ sudo echo 'sudo /home/pi/rasplooper/scripts/img_install_postprocess.sh' >> /etc/
 sudo echo 'exit 0' >> /etc/rc.local;
 sudo rm /home/pi/rc.local.tmp;
 
+sudo raspi-config;
+
 echo 'Setup complete!';
 echo 'Rebooting...';
 sudo reboot;
