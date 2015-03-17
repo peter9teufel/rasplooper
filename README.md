@@ -15,7 +15,7 @@ RaspLooper is a simple solution to bring video files to a Raspberry Pi which are
 * Take a coffee.
 * When installation is done, the RPi will reboot, initialize SD Card resizing to ensure the whole SD Card is used and then reboot again.
 * That's it, you should be up and running.
-* 
+
 ## Bring media files to your RaspLooper ##
 RaspLooper supports MP4 (h.264) out of the box, you can additionally obtain an MPEG2 license, again Google how to do that.
 
