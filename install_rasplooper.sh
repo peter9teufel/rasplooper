@@ -27,7 +27,7 @@ echo "";
 
 echo "Setting up autostart of RaspLooper Player";
 # modify rc.local to start raspmedia at boot
-sudo head -n -3 /etc/rc.local > /home/pi/rc.local.tmp;
+sudo head -n -2 /etc/rc.local > /home/pi/rc.local.tmp;
 sudo cat /home/pi/rc.local.tmp > /etc/rc.local;
 sudo echo 'sudo /home/pi/rasplooper/scripts/img_install_postprocess.sh' >> /etc/rc.local;
 sudo echo 'exit 0' >> /etc/rc.local;
