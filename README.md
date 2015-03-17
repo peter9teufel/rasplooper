@@ -7,16 +7,14 @@ RaspLooper is a simple solution to bring video files to a Raspberry Pi which are
 
 * Flash Raspbian on your RPi SD Card (Google how to do that)
 * SSH to your RPi or connect keyboard/monitor
-* Run `sudo raspi-config` and setup stuff like timezone etc. --> IMPORTANT: THIS STEP HAS TO BE DONE!
-* Select *Finish* in raspi-config, if the Raspberry does not ask to reboot, reboot it manually by entering `sudo reboot`
-* Wait until its rebooted and againt SSH to your RPi or use keyboard/monitor
 * Make sure your RPi has access to the internet
 * Download the installation script by executing the following command:
 * `wget https://raw.githubusercontent.com/peter9teufel/rasplooper/master/install_rasplooper.sh`
 * Make the script executable with `sudo chmod +x install_rasplooper.sh`
 * Run the installation with `sudo ./install_rasplooper.sh`
 * Take a coffee.
-* When installation is done, the RPi will reboot, initialize SD Card resizing to ensure the whole SD Card is used and then reboot again.
+* When the installation is done the install script will launch *raspi-config* so you can setup your timezone etc. if you like to. When you're done in raspi-config select *Finish*, if the RPi asks to reboot select *Yes*, if it does not ask don't mind it will reboot anyway.
+* When you Finish raspi-config, the RPi will reboot, initialize SD Card resizing to ensure the whole SD Card is used and then reboot again.
 * That's it, you should be up and running.
 
 ## Bring media files to your RaspLooper ##
